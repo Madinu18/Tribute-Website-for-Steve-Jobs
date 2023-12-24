@@ -5,18 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve Jobs</title>
     <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c720e51ab.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+        <h1 id="title">STEVE JOBS</h1>
         <nav>
             <ul>
                 <li><a href="#tribute-landing">Home</a></li>
-                <li><a href="#tribute-info">Biografi</a></li>
+                <li><a href="#tribute-info">Biography</a></li>
                 <li><a href="#tribute-link">More</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="main">
         <section id="tribute-landing">
             <div id="img-div">
                 <div id="img-caption">
@@ -27,22 +32,43 @@
                         And, like any great relationship, it just gets better and better as the years roll on. 
                         So keep looking until you find it. Don’t settle.
                     </h1>
-                    <h1 id="name">- Steve Jobs</h1>
+                    <h1 id="name">- Steve Jobs</h2>
                 </div>
                 <div id="img">
-                    <img src="/img/stevejobs.jpg" alt="Steve Jobs">
+                    <img id="image" src="/img/stevejobs.jpg" alt="Steve Jobs">
                 </div>
             </div>
         </section>
         <section id="tribute-info">
-
+            <h1>Biography</h1>
+            <hr>
+            <p> Steve Jobs, born on February 24, 1955, in San Francisco, California, was a visionary entrepreneur and co-founder of Apple Inc. 
+                From the company's humble beginnings in a garage, Jobs played a pivotal role in revolutionizing the technology industry. 
+                With an innate sense of design and innovation, he led the development of iconic products such as the Macintosh, iPod, iPhone, and iPad, forever changing the way we interact with technology. 
+                Known for his charismatic leadership and commitment to perfection, Jobs returned to Apple in 1997, orchestrating its resurgence and transforming it into one of the most influential technology companies globally. 
+                His profound impact on personal computing, music, animation, and telecommunications, coupled with his legacy of inspiring creativity and pushing boundaries, solidifies Steve Jobs as an enduring figure in the history of innovation. 
+                Steve Jobs passed away on October 5, 2011, leaving behind a legacy that continues to shape the modern technological landscape.
+            </p>
         </section>
-        <section id="tribute-link">
-
+        <section id="link">
+            <div class="mid">
+                <h1>MORE ABOUT STEVE JOBS</h1>
+                <p>Know more steve jobs through this website</p>
+                <div>
+                    <a href="https://id.wikipedia.org/wiki/Steve_Jobs" target="_blank" class="btn more-info"><i class="fa-brands fa-wikipedia-w"></i> Wikipedia</a>
+                    <a href="https://www.apple.com/stevejobs/" target="_blank" class="btn more-info"><i class="fa-brands fa-apple"></i> Apple</a>
+                    <a href="https://stevejobstribute.netlify.app/" target="_blank" class="btn more-info" id="tribute-link"><i class="fa-solid fa-globe"></i> More Website</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-
+        <div id="ftr-info">
+            <p>This website made for completing task in freeCodeCamp couse. Big Thanks to <a href="https://www.freecodecamp.org/" target="_blank" style="color: white;">freeCodeCamp</a>.</p>
+        </div>
+        <div id="ftr-create">
+            <p>© Created by Muhammad Adi Nurhidayat </p>
+        </div>
     </footer>
 </body>
 </html>
